@@ -90,7 +90,7 @@ function HomePage() {
       <Header />
       <Container maxWidth="md" style={{ marginTop: "40px", minHeight: "100vh", paddingBottom: "100px" }}>
         <Typography variant="h3" gutterBottom>
-          🍎 Find Nutrition Facts for any recipe
+          🍎 Find Nutrition Value for any recipe
         </Typography>
         <Paper elevation={24} style={{ padding: "20px" }}>
           <form onSubmit={handleSubmit}>
