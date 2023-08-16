@@ -40,7 +40,7 @@ const generateInfo = async (req, res) => {
       });
     } catch (error) {
       console.log(error);
-      if (error.response.status === 401) {
+      if (error.response && error.response.status === 401) {
         return res.status(401).json({
           error: "Please provide a valid API key.",
         });
